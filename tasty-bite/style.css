@@ -4,5 +4,23 @@
    margin:0;
    padding:0 
    font-family: 'Times New Roman', Times, serif;
-   
+}
+nav{
+   background-color: #5f8a2a;
+   Color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav > .logo{
+   padding: 10px 20px;
+   }
+   nav > .logo img{
+      border-radius: 25px;
+   }
+   nav ul{
+      display: flex;
+       justify-content: space-between;
+       gap: 60px;
+   }
 }
