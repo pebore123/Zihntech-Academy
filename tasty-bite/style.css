@@ -57,10 +57,11 @@ background-image: url("asset/image/Rectangle 16-1.png");
    max-width:360px
 }
 button{
+
    background-color: #5f8a2a;
    pdding: 10px 20px;
    border: none;
-   boarder-radius: 10px ;
+   border-radius: 10px ;
    letter-spacing: 2px;
    margin: 13px 20px;
 
@@ -70,3 +71,41 @@ button a{
    text-decoration: none;
 }
 
+/* The About Section */
+.about{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 60px;
+   padding: 60px ;
+}
+.about img{
+   height: 50vh;
+}
+.about h2{
+   padding-bottom: 20px;
+   font-size: 30px;
+   font-weight: 600;
+}
+.about span{
+   text-transform: capitalize;
+   font-size: 24px;
+   font-weight: 900;
+   padding-bottom: 15px;
+}
+.about .first-text{
+   padding-bottom: 40px;
+}
+.about .second-text{
+   padding-bottom: 30px;
+}
+button{   
+   background-color: #5f8a2a;
+   pdding: 10px 20px;
+   border: none;
+   border-radius: 50px ;
+   letter-spacing: 2px;
+   margin: 13px 20px;
+   color: white;
+
+}
