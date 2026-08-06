@@ -23,3 +23,50 @@ nav > .logo{
        justify-content: space-between;
        gap: 60px;
    }
+   nav li{
+      list-style-type: none;
+   }
+   nav a{
+      text-decoration: none;
+      color: white;
+   }
+   nav > .tel{
+      padding-right: 60px;
+   }
+   
+   /* The Hero Section */
+.hero{
+background-image: url("asset/image/Rectangle 16-1.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   color: white;
+   padding: 140px 36px 120px 100px;
+}
+.hero h1{
+   font-size:30px;
+   font-weight::bolder;
+}
+.hero-text{
+   font-size: 36px;
+   text-transform: capitalize;
+}
+.hero p{
+   font-size: 20px;
+   max-width:360px
+}
+button{
+   background-color: #5f8a2a;
+   pdding: 10px 20px;
+   border: none;
+   boarder-radius: 10px ;
+   letter-spacing: 2px;
+   margin: 13px 20px;
+
+}
+button a{
+   color: white;
+   text-decoration: none;
+}
+
